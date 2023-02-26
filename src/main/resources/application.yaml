@@ -1,0 +1,13 @@
+
+server:
+  port: 8888
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/blog
+    username: postgres
+    password: 123@test
+  jpa:
+      hibernate:
+        ddl-auto: create
+      show-sql: true
